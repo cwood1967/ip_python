@@ -1,2 +1,7 @@
 /files
 files.zip
+
+Data/
+.DS_Store
+__pycache__/
+__MACOSX/
