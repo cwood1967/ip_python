@@ -18,7 +18,10 @@ def download_images(url, extract_to):
     zipfile = ZipFile(BytesIO(http_response.read()))
     zipfile.extractall(path=extract_to)
     
-    
+
+#def checkdata_md5():
+#    url = 
+        
 def setlogging():
     root = logging.getLogger()
     root.setLevel(logging.DEBUG)
